@@ -1,10 +1,10 @@
 # Orbit Beta — Tester Dashboard
 
-_Auto-generated 2026-06-05T19:45:13+00:00 · anonymized · spend month 2026-06_
+_Auto-generated 2026-06-05T19:50:25+00:00 · anonymized · spend month 2026-06_
 
 Testers: 30 · Claude MTD $0.00 · OpenAI MTD $0.00
 
-| Tester | Status | Bugs 7d | Total | Claude $ | OpenAI $ | Flags |
+| Tester | Status | Reports 7d | Reports total | Claude $ | OpenAI $ | Flags |
 |---|---|--:|--:|--:|--:|---|
 | orbit-001 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
 | orbit-002 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
@@ -13,7 +13,7 @@ Testers: 30 · Claude MTD $0.00 · OpenAI MTD $0.00
 | orbit-005 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
 | orbit-006 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
 | orbit-007 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
-| orbit-008 | email_sent | 1 | 1 | $0.00 | $0.00 | 🆕new |
+| orbit-008 | active | 1 | 1 | $0.00 | $0.00 | 🆕new |
 | orbit-009 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
 | orbit-010 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
 | orbit-011 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
@@ -21,9 +21,9 @@ Testers: 30 · Claude MTD $0.00 · OpenAI MTD $0.00
 | orbit-013 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
 | orbit-014 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
 | orbit-015 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
-| orbit-016 | email_sent | 2 | 2 | $0.00 | $0.00 | 🆕new |
+| orbit-016 | active | 2 | 2 | $0.00 | $0.00 | 🆕new |
 | orbit-017 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
-| orbit-018 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
+| orbit-018 | active | 4 | 4 | $0.00 | $0.00 | 🆕new |
 | orbit-019 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
 | orbit-020 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
 | orbit-021 | email_sent | 0 | 0 | $0.00 | $0.00 | 🆕new |
