@@ -25,6 +25,8 @@ tr:nth-child(even) td{background:#fafbfc}
 .s-keys_issued{background:#fef3c7;color:#92590a}.s-signed_up{background:#eef0f2;color:#52606d}
 .s-email_drafted{background:#ffedd5;color:#9a3412}.s-revoked{background:#fee2e2;color:#b91c1c}
 .rank-1 td{background:#fdf3cf!important}.rank-2 td{background:#eceef1!important}.rank-3 td{background:#f6e7d4!important}
+.st-merged{background:#ead9fb;color:#6b21a8}.st-open{background:#d4f5dd;color:#176a32}.st-closed{background:#fee2e2;color:#52606d}
+h2.sub{font-size:1.15rem;color:var(--gxy-dark);margin:30px 0 10px}
 .banner{background:#fdf3cf;border:1px solid #e7d27a;border-radius:8px;padding:10px 14px;margin-bottom:16px;font-size:.92rem}
 .refresh{display:inline-block;background:#eef3f8;border:1px solid #cfe0ef;color:var(--gxy);border-radius:999px;padding:5px 13px;font-size:.85rem;font-weight:700;margin-bottom:14px}
 footer{max-width:1120px;margin:22px auto 44px;padding:0 20px;color:var(--muted);font-size:.85rem}
@@ -34,8 +36,8 @@ a{color:var(--gxy)}
 <div class="wrap">
 <h1>Orbit Beta — Tester Dashboard</h1>
 <div class="banner">🏆 <b>Bug-hunt contest</b> — the top 3 reporters are highlighted (🥇🥈🥉). Ranking is provisional (by report count); final winners are judged on reports that led to fixes.</div>
-<div class="refresh">🔄 This page refreshes automatically every 6 hours (4× a day) · last updated <b>Jun 08, 2026 · 16:03 UTC</b></div>
-<div class="meta">30 testers · Claude MTD $26.60 · OpenAI MTD $0.31 · caps Claude $100 / OpenAI $50 / DeepSeek $25 · target 3 reports/7d</div>
+<div class="refresh">🔄 This page refreshes automatically every 6 hours (4× a day) · last updated <b>Jun 08, 2026 · 16:07 UTC</b></div>
+<div class="meta">30 testers · Claude MTD $0.00 · OpenAI MTD $0.00 · caps Claude $100 / OpenAI $50 / DeepSeek $25 · target 3 reports/7d</div>
 <div class="card"><table>
 <thead><tr><th>Tester</th><th>🏆</th><th>Status</th><th class="num">Reports 7d</th><th class="num">Reports total</th><th class="num">Claude $</th><th class="num">OpenAI $</th><th>Flags</th></tr></thead>
 <tbody>
@@ -46,29 +48,55 @@ a{color:var(--gxy)}
 <tr><td>orbit-005</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-006</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-007</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
-<tr><td>orbit-008</td><td></td><td><span class="pill s-active">active</span></td><td class="num">3</td><td class="num">3</td><td class="num">$0.32</td><td class="num">$0.00</td><td>🆕new</td></tr>
+<tr class="rank-3"><td>orbit-008</td><td>🥉</td><td><span class="pill s-active">active</span></td><td class="num">1</td><td class="num">1</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-009</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-010</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
-<tr class="rank-2"><td>orbit-011</td><td>🥈</td><td><span class="pill s-active">active</span></td><td class="num">4</td><td class="num">4</td><td class="num">$16.30</td><td class="num">$0.00</td><td>🆕new</td></tr>
+<tr><td>orbit-011</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-012</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-013</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
-<tr class="rank-1"><td>orbit-014</td><td>🥇</td><td><span class="pill s-active">active</span></td><td class="num">7</td><td class="num">7</td><td class="num">$8.93</td><td class="num">$0.27</td><td>🆕new</td></tr>
-<tr><td>orbit-015</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.05</td><td>🆕new</td></tr>
-<tr><td>orbit-016</td><td></td><td><span class="pill s-active">active</span></td><td class="num">2</td><td class="num">2</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
+<tr><td>orbit-014</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
+<tr><td>orbit-015</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
+<tr class="rank-2"><td>orbit-016</td><td>🥈</td><td><span class="pill s-active">active</span></td><td class="num">2</td><td class="num">2</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-017</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
-<tr class="rank-3"><td>orbit-018</td><td>🥉</td><td><span class="pill s-active">active</span></td><td class="num">4</td><td class="num">4</td><td class="num">$1.05</td><td class="num">$0.00</td><td>🆕new</td></tr>
+<tr class="rank-1"><td>orbit-018</td><td>🥇</td><td><span class="pill s-active">active</span></td><td class="num">4</td><td class="num">4</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-019</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-020</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
-<tr><td>orbit-021</td><td></td><td><span class="pill s-active">active</span></td><td class="num">4</td><td class="num">4</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
+<tr><td>orbit-021</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-022</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-023</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-024</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-025</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-026</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-027</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
-<tr><td>orbit-028</td><td></td><td><span class="pill s-active">active</span></td><td class="num">2</td><td class="num">2</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
+<tr><td>orbit-028</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-029</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-030</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
-</tbody></table></div></div>
-<footer>Anonymized (testerId only). Auto-generated from the Orbit feedback database and provider cost APIs. © Galaxy Project.</footer>
+</tbody></table></div>
+<h2 class="sub">🛠️ Issues &amp; PRs from tester feedback</h2>
+<div class="card"><table>
+<thead><tr><th>#</th><th>Type</th><th>Title</th><th>State</th><th>Reported by</th></tr></thead>
+<tbody>
+<tr><td><a href="https://github.com/galaxyproject/loom/pull/213" target="_blank">#213</a></td><td>PR</td><td>Confirm feedback sends instead of silently closing the modal</td><td><span class="pill st-open">open</span></td><td>orbit-028</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/211" target="_blank">#211</a></td><td>issue</td><td>Uploading a large local file via galaxy_upload_file times out (MCP error -32001) and appears to kill the MCP connection</td><td><span class="pill st-open">open</span></td><td>orbit-014</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/210" target="_blank">#210</a></td><td>issue</td><td>Galaxy job errors aren&#x27;t surfaced proactively in Orbit chat -- only when the user asks</td><td><span class="pill st-open">open</span></td><td>orbit-014</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/208" target="_blank">#208</a></td><td>issue</td><td>galaxy_run_tool can&#x27;t map a dataset collection over a single-dataset tool input (featureCounts, FastQC) -- &quot;dataset collection supplied to single input dataset parameter&quot;</td><td><span class="pill st-open">open</span></td><td>orbit-014, orbit-008</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/pull/206" target="_blank">#206</a></td><td>PR</td><td>Fix chat output running together between streamed segments</td><td><span class="pill st-merged">merged</span></td><td>orbit-018</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/200" target="_blank">#200</a></td><td>issue</td><td>Chat output runs together -- missing spacing between streamed segments / tool narration and prose</td><td><span class="pill st-closed">closed</span></td><td>orbit-018</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/199" target="_blank">#199</a></td><td>issue</td><td>Galaxy MCP: tools return &quot;Not connected&quot; mid-session even though connect reports success (37 tools)</td><td><span class="pill st-open">open</span></td><td>orbit-021</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/198" target="_blank">#198</a></td><td>issue</td><td>Agent can&#x27;t run RNA STARSolo via galaxy_run_tool -- &quot;Parameter &#x27;genomeDir&#x27;: requires a value, but no legal values defined&quot;</td><td><span class="pill st-open">open</span></td><td>orbit-021, orbit-014</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/pull/196" target="_blank">#196</a></td><td>PR</td><td>Fix SVG file previews vanishing after first paint</td><td><span class="pill st-merged">merged</span></td><td>orbit-016</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/pull/195" target="_blank">#195</a></td><td>PR</td><td>Recover the UI when a provider call dies silently instead of hanging on &quot;thinking&quot;</td><td><span class="pill st-merged">merged</span></td><td>orbit-008, orbit-014</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/pull/194" target="_blank">#194</a></td><td>PR</td><td>Stop the agent leaking ~/.loom/config.json API keys into provider logs</td><td><span class="pill st-merged">merged</span></td><td>orbit-011, orbit-018</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/pull/192" target="_blank">#192</a></td><td>PR</td><td>Surface a clear message when Gemini is geo-blocked</td><td><span class="pill st-merged">merged</span></td><td>orbit-018</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/pull/191" target="_blank">#191</a></td><td>PR</td><td>Answer tester-ID questions from config instead of Galaxy (#189)</td><td><span class="pill st-merged">merged</span></td><td>orbit-008, orbit-018</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/189" target="_blank">#189</a></td><td>issue</td><td>&quot;What is my Orbit tester ID?&quot; -- agent checks Galaxy instead of ~/.loom/config.json</td><td><span class="pill st-closed">closed</span></td><td>orbit-008, orbit-018</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/188" target="_blank">#188</a></td><td>issue</td><td>SVG images vanish from the file preview (shows briefly, then broken-image icon)</td><td><span class="pill st-closed">closed</span></td><td>orbit-016</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/187" target="_blank">#187</a></td><td>issue</td><td>Model dropdown shows inconsistent pricing for &quot;Latest&quot; Gemini aliases</td><td><span class="pill st-closed">closed</span></td><td>orbit-018</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/186" target="_blank">#186</a></td><td>issue</td><td>Workflow invocation mangles empty/optional parameters (ConnectedValue object stringified into the value)</td><td><span class="pill st-open">open</span></td><td>orbit-008, orbit-016</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/185" target="_blank">#185</a></td><td>issue</td><td>Orbit hangs on &quot;thinking...&quot; forever when a cloud LLM call fails/stalls (no error surfaced)</td><td><span class="pill st-closed">closed</span></td><td>orbit-008, orbit-014</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/184" target="_blank">#184</a></td><td>issue</td><td>Gemini cloud models fail with &quot;User location is not supported for the API use&quot; (400 FAILED_PRECONDITION)</td><td><span class="pill st-closed">closed</span></td><td>orbit-018</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/183" target="_blank">#183</a></td><td>issue</td><td>Orbit: agent can read and echo provider API keys from ~/.loom/config.json into the LLM context</td><td><span class="pill st-closed">closed</span></td><td>orbit-011, orbit-018</td></tr>
+</tbody></table></div>
+</div>
+<footer>Anonymized (testerId only). Auto-generated from the Orbit feedback database, provider cost APIs, and galaxyproject/loom. © Galaxy Project.</footer>
 </body></html>
