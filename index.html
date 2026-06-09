@@ -36,7 +36,7 @@ a{color:var(--gxy)}
 <div class="wrap">
 <h1>Orbit Beta — Tester Dashboard</h1>
 <div class="banner">🏆 <b>Bug-hunt contest</b> — the top 3 reporters are highlighted (🥇🥈🥉). Ranking is provisional (by report count); final winners are judged on reports that led to fixes.</div>
-<div class="refresh">🔄 This page refreshes automatically every 6 hours (4× a day) · last updated <b>Jun 09, 2026 · 09:55 UTC</b></div>
+<div class="refresh">🔄 This page refreshes automatically every 6 hours (4× a day) · last updated <b>Jun 09, 2026 · 13:49 UTC</b></div>
 <div class="meta">30 testers · Claude MTD $263.82 · OpenAI MTD $0.44 · caps Claude $100 / OpenAI $50 / DeepSeek $25 · target 3 reports/7d</div>
 <div class="card"><table>
 <thead><tr><th>Tester</th><th>🏆</th><th>Status</th><th class="num">Reports 7d</th><th class="num">Reports total</th><th class="num">Claude $</th><th class="num">OpenAI $</th><th>Flags</th></tr></thead>
@@ -63,7 +63,7 @@ a{color:var(--gxy)}
 <tr><td>orbit-020</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr class="rank-2"><td>orbit-021</td><td>🥈</td><td><span class="pill s-active">active</span></td><td class="num">6</td><td class="num">6</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-022</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
-<tr><td>orbit-023</td><td></td><td><span class="pill s-active">active</span></td><td class="num">1</td><td class="num">1</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
+<tr><td>orbit-023</td><td></td><td><span class="pill s-active">active</span></td><td class="num">2</td><td class="num">2</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-024</td><td></td><td><span class="pill s-active">active</span></td><td class="num">1</td><td class="num">1</td><td class="num">$0.00</td><td class="num">$0.13</td><td>🆕new</td></tr>
 <tr><td>orbit-025</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$2.94</td><td class="num">$0.00</td><td>🆕new</td></tr>
 <tr><td>orbit-026</td><td></td><td><span class="pill s-email_sent">email_sent</span></td><td class="num">0</td><td class="num">0</td><td class="num">$0.00</td><td class="num">$0.00</td><td>🆕new</td></tr>
@@ -76,13 +76,14 @@ a{color:var(--gxy)}
 <div class="card"><table>
 <thead><tr><th>#</th><th>Type</th><th>Title</th><th>State</th><th>Reported by</th></tr></thead>
 <tbody>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/215" target="_blank">#215</a></td><td>issue</td><td>Orbit: provide an async invocation-wait primitive + idle re-nudge (agent blocks on bash `sleep` loops and stalls 30 min–2 h)</td><td><span class="pill st-open">open</span></td><td>orbit-023</td></tr>
 <tr><td><a href="https://github.com/galaxyproject/loom/pull/213" target="_blank">#213</a></td><td>PR</td><td>Confirm feedback sends instead of silently closing the modal</td><td><span class="pill st-open">open</span></td><td>orbit-028</td></tr>
 <tr><td><a href="https://github.com/galaxyproject/loom/issues/211" target="_blank">#211</a></td><td>issue</td><td>Uploading a large local file via galaxy_upload_file times out (MCP error -32001) and appears to kill the MCP connection</td><td><span class="pill st-open">open</span></td><td>orbit-014</td></tr>
 <tr><td><a href="https://github.com/galaxyproject/loom/issues/210" target="_blank">#210</a></td><td>issue</td><td>Galaxy job errors aren&#x27;t surfaced proactively in Orbit chat -- only when the user asks</td><td><span class="pill st-open">open</span></td><td>orbit-014</td></tr>
 <tr><td><a href="https://github.com/galaxyproject/loom/issues/208" target="_blank">#208</a></td><td>issue</td><td>galaxy_run_tool can&#x27;t map a dataset collection over a single-dataset tool input (featureCounts, FastQC) -- &quot;dataset collection supplied to single input dataset parameter&quot;</td><td><span class="pill st-open">open</span></td><td>orbit-014, orbit-008</td></tr>
 <tr><td><a href="https://github.com/galaxyproject/loom/pull/206" target="_blank">#206</a></td><td>PR</td><td>Fix chat output running together between streamed segments</td><td><span class="pill st-merged">merged</span></td><td>orbit-018</td></tr>
 <tr><td><a href="https://github.com/galaxyproject/loom/issues/200" target="_blank">#200</a></td><td>issue</td><td>Chat output runs together -- missing spacing between streamed segments / tool narration and prose</td><td><span class="pill st-closed">closed</span></td><td>orbit-018</td></tr>
-<tr><td><a href="https://github.com/galaxyproject/loom/issues/199" target="_blank">#199</a></td><td>issue</td><td>Galaxy MCP: tools return &quot;Not connected&quot; mid-session even though connect reports success (37 tools)</td><td><span class="pill st-open">open</span></td><td>orbit-021</td></tr>
+<tr><td><a href="https://github.com/galaxyproject/loom/issues/199" target="_blank">#199</a></td><td>issue</td><td>Galaxy MCP: tools return &quot;Not connected&quot; mid-session even though connect reports success (37 tools)</td><td><span class="pill st-open">open</span></td><td>orbit-021, orbit-014</td></tr>
 <tr><td><a href="https://github.com/galaxyproject/loom/issues/198" target="_blank">#198</a></td><td>issue</td><td>Agent can&#x27;t run RNA STARSolo via galaxy_run_tool -- &quot;Parameter &#x27;genomeDir&#x27;: requires a value, but no legal values defined&quot;</td><td><span class="pill st-open">open</span></td><td>orbit-021, orbit-014</td></tr>
 <tr><td><a href="https://github.com/galaxyproject/loom/pull/196" target="_blank">#196</a></td><td>PR</td><td>Fix SVG file previews vanishing after first paint</td><td><span class="pill st-merged">merged</span></td><td>orbit-016</td></tr>
 <tr><td><a href="https://github.com/galaxyproject/loom/pull/195" target="_blank">#195</a></td><td>PR</td><td>Recover the UI when a provider call dies silently instead of hanging on &quot;thinking&quot;</td><td><span class="pill st-merged">merged</span></td><td>orbit-008, orbit-014</td></tr>
